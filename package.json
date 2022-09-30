@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-css-basic",
+  "version": "1.0.0",
+  "description": "Tailwind CSS Practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzzal71/tailwind-css-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzzal71/tailwind-css-basic/issues"
+  },
+  "homepage": "https://github.com/uzzal71/tailwind-css-basic#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
