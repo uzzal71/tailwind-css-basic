@@ -4,7 +4,7 @@
   "description": "Tailwind CSS Practice",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/uzzal71/tailwind-css-basic#readme",
   "devDependencies": {
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^2.2.17"
   }
 }
